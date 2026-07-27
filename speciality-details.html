@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed information about medical specialities at CarePlus Multispeciality Hospital.">
+    <title>Speciality Details | CarePlus Multispeciality Hospital</title>
+    <link rel="canonical" href="https://careplushospital.com/speciality-details">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-info">
+                <span><i class="fas fa-phone-alt"></i> Emergency: +91 98765 43210</span>
+                <span><i class="fas fa-calendar-check"></i> Appointments: +91 98765 43211</span>
+                <span><i class="fas fa-envelope"></i> careplus@example.com</span>
+                <span><i class="fas fa-location-dot"></i> Pune, Maharashtra</span>
+            </div>
+            <div class="top-bar-emergency">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span>24/7 Emergency Care</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="CarePlus Hospital Home">
+                <div class="logo-icon" aria-hidden="true">+</div>
+                <div class="logo-text">
+                    <span class="logo-title">CarePlus</span>
+                    <span class="logo-sub">Multispeciality Hospital</span>
+                </div>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="specialities.html" class="active">Specialities</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="health-packages.html">Health Packages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+                    <a href="tel:+919876543210" class="btn btn-emergency btn-sm"><i class="fas fa-phone-alt"></i> Emergency</a>
+                </div>
+                <div class="mobile-nav-cta">
+                    <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
+                    <a href="tel:+919876543210" class="btn btn-emergency"><i class="fas fa-phone-alt"></i> Emergency: +91 98765 43210</a>
+                </div>
+            </nav>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+    <div class="mobile-menu-overlay"></div>
+
+    <main>
+        <section class="page-banner">
+            <div class="container">
+                <h1 id="specialityTitle">Speciality Details</h1>
+                <p id="specialitySubtitle">Comprehensive care for your health needs</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="separator">/</span>
+                    <a href="specialities.html">Specialities</a>
+                    <span class="separator">/</span>
+                    <span id="specialityBreadcrumb">Details</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="container">
+                <div class="speciality-details-grid" id="specialityDetailsContainer">
+                    <div class="doctor-profile-card" style="text-align: left;">
+                        <div class="speciality-icon" style="width: 80px; height: 80px; font-size: 36px; margin: 0 auto 20px; background: var(--primary-light); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: var(--primary-color);">
+                            <i class="fas fa-heart-pulse" id="specialityIcon"></i>
+                        </div>
+                        <h2 id="specialityName">Cardiology</h2>
+                        <p style="color: var(--text-light); margin-top: 12px;">Expert care with advanced technology for the best outcomes.</p>
+                        <a href="appointment.html" class="btn btn-primary" style="width: 100%; margin-top: 20px;">Book Appointment</a>
+                    </div>
+                    <div class="details-content">
+                        <section>
+                            <h3>About the Department</h3>
+                            <p id="specialityAbout">Our department is equipped with state-of-the-art technology and staffed by experienced specialists dedicated to providing comprehensive care.</p>
+                        </section>
+                        <section>
+                            <h3>Conditions We Treat</h3>
+                            <ul class="details-list" id="conditionsList">
+                                <li><i class="fas fa-check-circle"></i> Coronary Artery Disease</li>
+                                <li><i class="fas fa-check-circle"></i> Heart Valve Disorders</li>
+                                <li><i class="fas fa-check-circle"></i> Cardiac Arrhythmias</li>
+                                <li><i class="fas fa-check-circle"></i> Heart Failure</li>
+                                <li><i class="fas fa-check-circle"></i> Congenital Heart Defects</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Treatments &amp; Procedures</h3>
+                            <ul class="details-list" id="treatmentsList">
+                                <li><i class="fas fa-check-circle"></i> Angioplasty &amp; Stenting</li>
+                                <li><i class="fas fa-check-circle"></i> Echocardiography</li>
+                                <li><i class="fas fa-check-circle"></i> Pacemaker Implantation</li>
+                                <li><i class="fas fa-check-circle"></i> Cardiac CT &amp; MRI</li>
+                                <li><i class="fas fa-check-circle"></i> Stress Testing</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Our Specialists</h3>
+                            <p>Our team of highly qualified specialists is led by experienced consultants with years of expertise.</p>
+                            <a href="doctors.html" class="btn btn-outline">View Doctors <i class="fas fa-arrow-right"></i></a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon" aria-hidden="true">+</div>
+                        <div class="logo-text">
+                            <span class="logo-title">CarePlus</span>
+                            <span class="logo-sub">Multispeciality Hospital</span>
+                        </div>
+                    </div>
+                    <p>Providing world-class healthcare with compassion, innovation, and excellence.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="doctors.html"><i class="fas fa-chevron-right"></i> Doctors</a></li>
+                        <li><a href="specialities.html"><i class="fas fa-chevron-right"></i> Specialities</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Patient Services</h3>
+                    <ul>
+                        <li><a href="appointment.html"><i class="fas fa-chevron-right"></i> Book Appointment</a></li>
+                        <li><a href="doctors.html"><i class="fas fa-chevron-right"></i> Find a Doctor</a></li>
+                        <li><a href="health-packages.html"><i class="fas fa-chevron-right"></i> Health Packages</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Insurance</a></li>
+                        <li><a href="tel:+919876543210"><i class="fas fa-chevron-right"></i> Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone-alt"></i><div><strong>Emergency:</strong><br>+91 98765 43210</div></li>
+                        <li><i class="fas fa-calendar-check"></i><div><strong>Appointments:</strong><br>+91 98765 43211</div></li>
+                        <li><i class="fas fa-envelope"></i><div><strong>Email:</strong><br>careplus@example.com</div></li>
+                        <li><i class="fas fa-location-dot"></i><div><strong>Address:</strong><br>Pune, Maharashtra, India</div></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CarePlus Multispeciality Hospital. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple speciality details initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            const params = new URLSearchParams(window.location.search);
+            const slug = params.get('speciality') || 'cardiology';
+            
+            const specialityData = {
+                cardiology: { name: 'Cardiology', icon: 'fa-heart-pulse', about: 'Our cardiology department provides comprehensive cardiac care using state-of-the-art diagnostic equipment and advanced interventional procedures. Our team of experienced cardiologists specializes in treating all types of heart conditions.' },
+                neurology: { name: 'Neurology', icon: 'fa-brain', about: 'Our neurology department offers expert diagnosis and treatment for a wide range of neurological disorders. We use advanced diagnostic tools and evidence-based treatment protocols.' },
+                neurosurgery: { name: 'Neurosurgery', icon: 'fa-x-ray', about: 'Our neurosurgery department is equipped with advanced surgical technology and staffed by highly skilled neurosurgeons specializing in complex brain and spine procedures.' },
+                orthopaedics: { name: 'Orthopaedics', icon: 'fa-bone', about: 'Our orthopaedics department offers comprehensive care for bone, joint, and muscle conditions. We specialize in joint replacement, sports injuries, and trauma surgery.' },
+                oncology: { name: 'Oncology', icon: 'fa-ribbon', about: 'Our oncology department provides comprehensive cancer care with advanced treatment options including chemotherapy, radiation therapy, and surgical oncology.' },
+                gastroenterology: { name: 'Gastroenterology', icon: 'fa-stomach', about: 'Our gastroenterology department specializes in diagnosing and treating digestive system disorders using advanced endoscopic and imaging technologies.' },
+                nephrology: { name: 'Nephrology', icon: 'fa-kidneys', about: 'Our nephrology department provides comprehensive kidney care including dialysis services, kidney transplant management, and treatment for chronic kidney disease.' },
+                urology: { name: 'Urology', icon: 'fa-bladder', about: 'Our urology department offers advanced care for urinary tract conditions using minimally invasive surgical techniques.' },
+                gynaecology: { name: 'Gynaecology', icon: 'fa-venus', about: 'Our gynaecology department provides comprehensive women\'s health services including pregnancy care, laparoscopic surgery, and well-woman checkups.' },
+                paediatrics: { name: 'Paediatrics', icon: 'fa-child', about: 'Our paediatrics department offers specialized medical care for infants, children, and adolescents in a child-friendly environment.' },
+                pulmonology: { name: 'Pulmonology', icon: 'fa-lungs', about: 'Our pulmonology department provides expert care for respiratory and lung conditions using advanced diagnostic and treatment modalities.' },
+                'general-medicine': { name: 'General Medicine', icon: 'fa-stethoscope', about: 'Our general medicine department provides comprehensive primary care for a wide range of health concerns with a focus on preventive healthcare.' }
+            };
+
+            const data = specialityData[slug] || specialityData.cardiology;
+            
+            document.getElementById('specialityTitle').textContent = data.name;
+            document.getElementById('specialitySubtitle').textContent = `Comprehensive ${data.name.toLowerCase()} care`;
+            document.getElementById('specialityBreadcrumb').textContent = data.name;
+            document.getElementById('specialityName').textContent = data.name;
+            document.getElementById('specialityIcon').className = `fas ${data.icon}`;
+            document.getElementById('specialityAbout').textContent = data.about;
+            document.title = `${data.name} | CarePlus Multispeciality Hospital`;
+        });
+    </script>
+    <script src="js/main.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+</body>
+</html>
