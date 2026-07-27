@@ -1,0 +1,24 @@
+{
+  "name": "careplus-hospital",
+  "version": "1.0.0",
+  "description": "CarePlus Multispeciality Hospital - A complete, responsive hospital website built with HTML5, CSS3, and Vanilla JavaScript",
+  "private": true,
+  "license": "MIT",
+  "author": "CarePlus Multispeciality Hospital",
+  "keywords": [
+    "hospital",
+    "healthcare",
+    "multispeciality",
+    "hospital-website",
+    "responsive"
+  ],
+  "homepage": "https://github.com/YOUR_USERNAME/careplus-hospital#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/careplus-hospital.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/careplus-hospital/issues"
+  }
+}
+

@@ -52,3 +52,42 @@ Search for "+91 98765" across all HTML files and replace.
 ## How to Connect Forms to Backend
 
 Edit `js/appointment.js` and `js/contact.js` - replace the mock success functions with fetch() API calls to your backend endpoint.
+
+---
+
+## Deployment
+
+### Deploy to GitHub
+
+1. Create a new repository on [GitHub](https://github.com/new)
+2. Open a terminal in the project folder:
+   ```bash
+   cd careplus-hospital
+   git init
+   git add .
+   git commit -m "Initial commit - CarePlus Hospital website"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git push -u origin main
+   ```
+
+### Deploy to Vercel
+
+#### Option 1: Via Vercel Dashboard (Recommended)
+1. Go to [vercel.com](https://vercel.com) and sign in with your GitHub account
+2. Click **Add New** → **Project**
+3. Import your GitHub repository (`careplus-hospital`)
+4. **Framework Preset**: Select `Other` (static site — no build step needed)
+5. **Root Directory**: Keep as `./` (or select `careplus-hospital` if you pushed the entire parent folder)
+6. Click **Deploy**
+7. Done! Vercel will auto-detect the `vercel.json` config
+
+#### Option 2: Via Vercel CLI
+```bash
+npm install -g vercel
+vercel login
+cd careplus-hospital
+vercel --prod
+```
+
+**Note:** The included `vercel.json` sets up caching headers, security headers, and clean URLs automatically.
